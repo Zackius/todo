@@ -1,3 +1,8 @@
 # created by virtualenv automatically
 .env 
+pyvenv.cfg
+bin
+include
+lib
+_pycache_
 
