@@ -1,7 +1,8 @@
-class RegisterUser:
+# from flask import request
+from flask_restful import Resource
+
+
+class RegisterUser(Resource):
     "Register a user"
-    def post(_):
-        incoming_data = request.get_json()
-        required_fields =[
-            
-        ]
+    def post(self):
+        return  print("HEllo Africa")
